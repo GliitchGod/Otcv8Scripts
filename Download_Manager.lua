@@ -11,112 +11,53 @@ script_manager = {
 
         Tibia = {
             ['E Ring'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/e_ring.lua',
-                description = 'Script de e-ring.',
-                author = 'VivoDibra',
-                enabled = false
-            },
-            ['Exeta Res'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/exeta_res.lua',
-                description = 'Script exeta res.',
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Custom_E-Ring.lua',
+                description = 'Script e-ring.',
                 author = 'VivoDibra',
                 enabled = false
             },
 
-            ['Safe UE/SD'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/safe_ue_sd.lua',
-                description = 'Script safe UE/SD.',
-                author = 'VivoDibra',
-                enabled = false
-            },
-            ['Share Exp'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/share_exp.lua',
-                description = 'share exp.',
-                author = 'VivoDibra',
-                enabled = false
-            },
-            ['Utana Vid'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/utana_vid.lua',
-                description = 'Script utana vid.',
-                author = 'VivoDibra',
-                enabled = false
-            },
-            ['Utura'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/utura.lua',
-                description = 'Utura script.',
+            ['Auto Taunt'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/exeta_res.lua',
+                description = 'Exeta Res based on attack.',
                 author = 'VivoDibra',
                 enabled = false
             },
 
-        },
-
-        PvP = {
-            ['Attack Target'] = {
-                url = 'https://raw.githubusercontent.com/ryanzin/OTCV8/main/ATTACK-TARGET.lua',
-                description = 'Script to keep the target even if it leaves the screen.',
-                author = 'Ryan',
+            ['Auto Pickup'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Auto_Pickup.lua',
+                description = 'Script Auto Pickup with ui.',
+                author = 'Kratos',
                 enabled = false
             },
 
-            ['Follow Attack'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/PvP/follow_attack.lua',
-                description = 'Follow attack script, follow the target.',
-                author = 'VictorNeox',
-                enabled = false
-            },
-            ['Enemy'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/PvP/enemy.lua',
-                description = 'Script enemy, attack the enemy with the least hp on the screen.',
-                author = 'Ryan',
+            ['Exp Analyser'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Exp_Analyser.lua',
+                description = 'Script UI exp Analyser.',
+                author = 'Kratos',
                 enabled = false
             },
 
-            ['Anti Push'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/PvP/anti_push.lua',
-                description = 'Anti push script.',
-                author = 'mrlthebest',
-                enabled = false
-            },
-            ['MW Front of Target'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/PvP/mwall_target.lua',
-                description = 'Script to drop MW in front of the target.',
-                author = 'Gengo',
-                enabled = false
-            },
-        },
 
         Healing = {
             ['Heal Friend'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Healing/heal_friend.lua',
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Heal_Friend.lua',
                 description = 'Script heal friends/party.',
                 author = 'mrlthebest',
                 enabled = false
             },
-            ['Potion'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Healing/potion.lua',
-                description = 'Script potion HP/MP.',
-                author = 'mrlthebest',
-                enabled = false
-            },
-            ['Regeneration'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Healing/regeneration.lua',
-                description = 'Script regeneration.',
-                author = 'mrlthebest',
-                enabled = false
-            },
-        },
 
         Utilities = {
 
             ['Auto Party'] = {
                 url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/auto_party.lua',
-                description = 'Script de auto party.',
+                description = 'Auto Party.',
                 author = 'Lee',
                 enabled = false
             },
             ['Buff'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/buff.lua',
-                description = 'Script de buff pela mensagem laranja.',
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_buff.lua',
+                description = 'Buff script by orange message.',
                 author = 'mrlthebest',
                 enabled = false
             },
@@ -128,68 +69,25 @@ script_manager = {
                 author = 'VictorNeox.',
                 enabled = false
             },
-            ['Creature HealthPercent'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/creature_hppercent.lua',
-                description = 'Script to show the % of all creatures on the screen.',
-                author = 'mrlthebest.',
-                enabled = false
-            },
-            ['Death Counter'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/death_counter.lua',
-                description = 'Death Count Script.',
-                author = 'Lee',
-                enabled = false
-            },
-            ['Follow Player'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/follow_player.lua',
-                description = 'Script de follow player.',
-                author = 'VictorNeox',
-                enabled = false
-            },
-            ['Hide Effects'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/hide_effects.lua',
-                description = 'Script de esconder os efeitos.',
-                author = 'UzumarTayhero',
+
+            ['Combo With Leader'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Combo_leader.lua',
+                description = 'Script target leader mob/player.',
+                author = 'Kratos.',
                 enabled = false
             },
 
-            ['Kill Count'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/kill_count.lua',
-                description = 'Script que conta os monstros que voce matou.',
-                author = 'Lee',
+            ['Follow Player'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/AutoFollow_with_Botserver.lua',
+                description = 'Auto Follow Player with botserver.',
+                author = 'Kratos/Cyotah',
                 enabled = false
             },
+
             ['Last Exiva'] = {
                 url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/last_exiva.lua',
                 description = 'Script de last sense/exiva.',
                 author = 'Lee',
-                enabled = false
-            },
-
-            ['MW Cursor'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/mw_cursor.lua',
-                description = 'Script de soltar MW onde o cursor do mouse esta.',
-                author = 'mrlthebest',
-                enabled = false
-            },
-
-            ['Open Main BP'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/open_main_bp.lua',
-                description = 'Script de abrir a bp principal.',
-                author = 'VivoDibra',
-                enabled = false
-            },
-           
-            ['Storage Cave/Target Bot'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/storage_cavebot.lua',
-                description = 'Script that will separate the current cavebot/targetbot from each character.',
-                author = 'mrlthebest',
-                enabled = false
-            },
-            ['Time Spell'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/time_spell.lua',
-                description = 'Script Spell timing.',
-                author = 'VictorNeox',
                 enabled = false
             },
 
@@ -201,16 +99,9 @@ script_manager = {
             },
 
             ['Stamina'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/stamina.lua',
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_stamina.lua',
                 description = 'Script to use stamina.',
-                author = 'AnenScripts',
-                enabled = false
-            },
-
-            ['Script Manager'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/script_manager.lua',
-                description = 'Script manager script, allowing you to add icons and other files in a simpler way.',
-                author = 'AnenScripts',
+                author = 'Kratos',
                 enabled = false
             },
 
