@@ -5,7 +5,7 @@ script_path_json = script_path .. player:getName() .. '.json'
 local actualVersion = 0.69
 
 local script_manager = {
-    actualVersion = 0.3,
+    actualVersion = 0.69,
     _cache = {
         Tibia = {
             ['E Ring'] = {
