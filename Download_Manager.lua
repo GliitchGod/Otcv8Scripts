@@ -105,9 +105,12 @@ script_manager = {
                 enabled = false
             },
 
+          },
         },
-
+      },
     },
+
+
 };
 
 
