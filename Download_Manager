@@ -10,12 +10,6 @@ script_manager = {
     _cache = {
 
         Tibia = {
-            ['Cast Food'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/cast_food.lua',
-                description = 'Casting/using food script.',
-                author = 'VivoDibra',
-                enabled = false
-            },
             ['E Ring'] = {
                 url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Tibia/e_ring.lua',
                 description = 'Script de e-ring.',
