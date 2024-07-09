@@ -189,9 +189,9 @@ UIWidget
 script_bot.widget = setupUI([[
 MainWindow
   !text: tr('Community Scripts')
-  font: terminus-12px-bold  -- Adjusted font size
+  font: terminus-12px-bold
   color: #d2cac5
-  size: 320 420  -- Slightly increased size
+  size: 320 420
 
   TabBar
     id: macrosOptions
@@ -234,7 +234,7 @@ MainWindow
     anchors.left: parent.left
     anchors.bottom: parent.bottom
     margin-right: 5
-    width: 150  -- Adjusted width
+    width: 150
 
   Button
     id: closeButton
@@ -243,7 +243,7 @@ MainWindow
     anchors.right: parent.right
     anchors.left: searchBar.right
     anchors.bottom: parent.bottom
-    size: 55 21  -- Adjusted size
+    size: 55 21
     margin-bottom: 1
     margin-right: 5
     margin-left: 5
