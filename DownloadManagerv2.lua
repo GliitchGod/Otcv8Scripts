@@ -198,7 +198,7 @@ MainWindow
     anchors.top: parent.top
     anchors.left: parent.left
     anchors.right: parent.right
-    width: 180
+    width: 200
 
   ScrollablePanel
     id: scriptList
@@ -208,7 +208,7 @@ MainWindow
     margin-top: 25
     margin-left: 2
     margin-right: 15
-    margin-bottom: 35
+    margin-bottom: 3
     vertical-scrollbar: scriptListScrollBar
       
   VerticalScrollBar
