@@ -69,7 +69,13 @@ local script_manager = {
                 description = 'Auto Follow Player with botserver.',
                 author = 'Kratos/Cyotah',
                 enabled = false
-            }
+            },
+            ['Pot Healing'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Pot_Healing.lua',
+                description = 'Script Heal with potions.',
+                author = 'mrlthebest',
+                enabled = false
+            },
         },
         Utility = {
             ['E Ring'] = {
@@ -91,14 +97,6 @@ local script_manager = {
                 author = 'Kratos',
                 enabled = false
             }
-        },
-        Healing = {
-            ['Pot Healing'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Pot_Healing.lua',
-                description = 'Script Heal with potions.',
-                author = 'mrlthebest',
-                enabled = false
-            },
         },
         PartyStuff = {
             ['Auto Party'] = {
