@@ -208,7 +208,7 @@ MainWindow
     margin-top: 25
     margin-left: 2
     margin-right: 15
-    margin-bottom: 30
+    margin-bottom: 35
     vertical-scrollbar: scriptListScrollBar
       
   VerticalScrollBar
