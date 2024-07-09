@@ -21,13 +21,7 @@ local script_manager = {
                 enabled = false
             },
         },
-        Utility = {
-            ['E Ring'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Custom_E-Ring.lua',
-                description = 'Script e-ring.',
-                author = 'VivoDibra',
-                enabled = false
-            },
+        Automation ={
             ['Buff'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_buff.lua',
                 description = 'Buff script by orange message.',
@@ -43,12 +37,6 @@ local script_manager = {
             ['Auto Pickup'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Auto_Pickup.lua',
                 description = 'Script Auto Pickup with ui.',
-                author = 'Kratos',
-                enabled = false
-            },
-            ['Exp Analyser'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Exp_Analyser.lua',
-                description = 'Script UI exp Analyser.',
                 author = 'Kratos',
                 enabled = false
             },
@@ -69,6 +57,39 @@ local script_manager = {
                 description = 'Script to use stamina.',
                 author = 'Kratos',
                 enabled = false
+            },
+            ['Heal Friend'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Heal_Friend.lua',
+                description = 'Script heal friends/party.',
+                author = 'mrlthebest',
+                enabled = false
+            },
+            ['Follow Player'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/AutoFollow_with_Botserver.lua',
+                description = 'Auto Follow Player with botserver.',
+                author = 'Kratos/Cyotah',
+                enabled = false
+            }
+        },
+        Utility = {
+            ['E Ring'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Custom_E-Ring.lua',
+                description = 'Script e-ring.',
+                author = 'VivoDibra',
+                enabled = false
+            },
+            ['Waypoints on screen'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/WaypointOnScreen.lua',
+                description = 'Shows waypoints on screen.',
+                author = 'Kratos',
+                enabled = false
+            },
+
+            ['Exp Analyser'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Exp_Analyser.lua',
+                description = 'Script UI exp Analyser.',
+                author = 'Kratos',
+                enabled = false
             }
         },
         Healing = {
@@ -77,19 +98,13 @@ local script_manager = {
                 description = 'Script Heal with potions.',
                 author = 'mrlthebest',
                 enabled = false
-            }
+            },
         },
         PartyStuff = {
             ['Auto Party'] = {
                 url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/auto_party.lua',
                 description = 'Auto Party.',
                 author = 'Lee',
-                enabled = false
-            },
-            ['Heal Friend'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Heal_Friend.lua',
-                description = 'Script heal friends/party.',
-                author = 'mrlthebest',
                 enabled = false
             },
             ['Combo + Combo Interrupt'] = {
@@ -104,12 +119,6 @@ local script_manager = {
                 author = 'Kratos.',
                 enabled = false
             },
-            ['Follow Player'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/AutoFollow_with_Botserver.lua',
-                description = 'Auto Follow Player with botserver.',
-                author = 'Kratos/Cyotah',
-                enabled = false
-            }
         }
     }
 }
