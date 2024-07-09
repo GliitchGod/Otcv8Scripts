@@ -7,11 +7,34 @@ local actualVersion = 0.69
 local script_manager = {
     actualVersion = 0.69,
     _cache = {
-        Tibia = {
+        Combat ={
+            ['Smarter TargetingV2'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Smarter_TargetingV2.lua',
+                description = 'Smarter targeting with extra features.',
+                author = 'Modified by Kratos',
+                enabled = false
+            },
+            ['Utamo RP'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/utamo_shield.lua',
+                description = 'Script Utamo Vita by %.',
+                author = 'Madicinal',
+                enabled = false
+            },
+
+
+
+        },
+        Utility = {
             ['E Ring'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Custom_E-Ring.lua',
                 description = 'Script e-ring.',
                 author = 'VivoDibra',
+                enabled = false
+            },
+            ['Buff'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_buff.lua',
+                description = 'Buff script by orange message.',
+                author = 'mrlthebest',
                 enabled = false
             },
             ['Auto Taunt'] = {
@@ -31,16 +54,27 @@ local script_manager = {
                 description = 'Script UI exp Analyser.',
                 author = 'Kratos',
                 enabled = false
+            },
+            ['Last Exiva'] = {
+                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/last_exiva.lua',
+                description = 'Script de last sense/exiva.',
+                author = 'Lee',
+                enabled = false
+            },
+            ['Turn Target'] = {
+                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/turn.lua',
+                description = 'Script turn the character to where the target is.',
+                author = 'Ryan',
+                enabled = false
+            },
+            ['Stamina'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_stamina.lua',
+                description = 'Script to use stamina.',
+                author = 'Kratos',
+                enabled = false
             }
         },
         Healing = {
-            ['Heal Friend'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Heal_Friend.lua',
-                description = 'Script heal friends/party.',
-                author = 'mrlthebest',
-                enabled = false
-            },
-
             ['Pot Healing'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Pot_Healing.lua',
                 description = 'Script Heal with potions.',
@@ -48,16 +82,16 @@ local script_manager = {
                 enabled = false
             }
         },
-        Utilities = {
+        PartyStuff = {
             ['Auto Party'] = {
                 url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/auto_party.lua',
                 description = 'Auto Party.',
                 author = 'Lee',
                 enabled = false
             },
-            ['Buff'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_buff.lua',
-                description = 'Buff script by orange message.',
+            ['Heal Friend'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Heal_Friend.lua',
+                description = 'Script heal friends/party.',
                 author = 'mrlthebest',
                 enabled = false
             },
@@ -77,24 +111,6 @@ local script_manager = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/AutoFollow_with_Botserver.lua',
                 description = 'Auto Follow Player with botserver.',
                 author = 'Kratos/Cyotah',
-                enabled = false
-            },
-            ['Last Exiva'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/last_exiva.lua',
-                description = 'Script de last sense/exiva.',
-                author = 'Lee',
-                enabled = false
-            },
-            ['Turn Target'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/turn.lua',
-                description = 'Script turn the character to where the target is.',
-                author = 'Ryan',
-                enabled = false
-            },
-            ['Stamina'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_stamina.lua',
-                description = 'Script to use stamina.',
-                author = 'Kratos',
                 enabled = false
             }
         }
