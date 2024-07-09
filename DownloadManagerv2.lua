@@ -222,10 +222,10 @@ MainWindow
 
   HorizontalSeparator
     id: sep
-    anchors.top: enemyList.bottom
+    anchors.top: scriptList.bottom
     anchors.bottom: parent.bottom
     anchors.left: parent.left
-    anchors.right: prev.right
+    anchors.right: parent.right
     margin-left: 10
     margin-top: 6
 
@@ -247,7 +247,8 @@ MainWindow
     margin-bottom: 1
     margin-right: 5
     margin-left: 5
-]], g_ui.getRootWidget())
+]]
+, g_ui.getRootWidget())
 script_bot.widget:hide()
 script_bot.widget:setText('Community Scripts - ' .. actualVersion)
 
