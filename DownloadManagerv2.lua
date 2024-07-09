@@ -39,6 +39,13 @@ local script_manager = {
                 description = 'Script heal friends/party.',
                 author = 'mrlthebest',
                 enabled = false
+            },
+
+            ['Pot Healing'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Pot_Healing.lua',
+                description = 'Script Heal with potions.',
+                author = 'mrlthebest',
+                enabled = false
             }
         },
         Utilities = {
