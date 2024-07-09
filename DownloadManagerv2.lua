@@ -247,11 +247,8 @@ MainWindow
     margin-bottom: 1
     margin-right: 5
     margin-left: 5
-]]
-
--- Additional logic for handling the button click, search bar input, etc.
-
-, g_ui.getRootWidget())
+]],
+ g_ui.getRootWidget())
 script_bot.widget:hide()
 script_bot.widget:setText('Community Scripts - ' .. actualVersion)
 
