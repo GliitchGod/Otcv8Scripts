@@ -76,8 +76,8 @@ addScrollBar = function(id, title, min, max, defaultValue, dest, tooltip)
     widget.scroll.onValueChange(widget.scroll, value)
 end
 
-addScrollBar('potionHealth', 'Health %', 1, 100, 99, tabName, 'Health percentage to use the potion.');
-addScrollBar('potionMana', 'Mana %', 1, 100, 99, tabName, 'Mana percentage to use the potion.');
+addScrollBar('potionHealth', 'Health', 1, 100, 99, tabName, 'Health percentage to use the potion.');
+addScrollBar('potionMana', 'Mana', 1, 100, 99, tabName, 'Mana percentage to use the potion.');
 addItem('potionLife', 'Potion Health', 11863, tabName, '');
 addItem('potionMana', 'Potion Mana', 11863, tabName, '');
 
