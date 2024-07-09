@@ -189,9 +189,9 @@ UIWidget
 script_bot.widget = setupUI([[
 MainWindow
   !text: tr('Community Scripts')
-  font: terminus-14px-bold
+  font: terminus-12px-bold  -- Adjusted font size
   color: #d2cac5
-  size: 300 400
+  size: 320 420  -- Slightly increased size
 
   TabBar
     id: macrosOptions
@@ -210,7 +210,7 @@ MainWindow
     margin-right: 15
     margin-bottom: 3
     vertical-scrollbar: scriptListScrollBar
-      
+
   VerticalScrollBar
     id: scriptListScrollBar
     anchors.top: scriptList.top
@@ -234,7 +234,7 @@ MainWindow
     anchors.left: parent.left
     anchors.bottom: parent.bottom
     margin-right: 5
-    width: 130
+    width: 150  -- Adjusted width
 
   Button
     id: closeButton
@@ -243,11 +243,14 @@ MainWindow
     anchors.right: parent.right
     anchors.left: searchBar.right
     anchors.bottom: parent.bottom
-    size: 45 21
+    size: 55 21  -- Adjusted size
     margin-bottom: 1
     margin-right: 5
     margin-left: 5
 ]]
+
+-- Additional logic for handling the button click, search bar input, etc.
+
 , g_ui.getRootWidget())
 script_bot.widget:hide()
 script_bot.widget:setText('Community Scripts - ' .. actualVersion)
