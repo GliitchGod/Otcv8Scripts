@@ -6,8 +6,8 @@ local actualVersion = 0.69
 
 local script_manager = {
     actualVersion = 0.69,
-    _cache = {
-        Combat ={
+     _cache = {
+        Combat = {
             ['Smarter TargetingV2'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Smarter_TargetingV2.lua',
                 description = 'Smarter targeting with extra features.',
@@ -20,17 +20,8 @@ local script_manager = {
                 author = 'Madicinal',
                 enabled = false
             },
-
-
-
         },
-        Utility = {
-            ['E Ring'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Custom_E-Ring.lua',
-                description = 'Script e-ring.',
-                author = 'VivoDibra',
-                enabled = false
-            },
+        Automation = {
             ['Buff'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/auto_buff.lua',
                 description = 'Buff script by orange message.',
@@ -46,12 +37,6 @@ local script_manager = {
             ['Auto Pickup'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Auto_Pickup.lua',
                 description = 'Script Auto Pickup with ui.',
-                author = 'Kratos',
-                enabled = false
-            },
-            ['Exp Analyser'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Exp_Analyser.lua',
-                description = 'Script UI exp Analyser.',
                 author = 'Kratos',
                 enabled = false
             },
@@ -72,13 +57,43 @@ local script_manager = {
                 description = 'Script to use stamina.',
                 author = 'Kratos',
                 enabled = false
-            }
-        },
-        Healing = {
+            },
             ['Pot Healing'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Pot_Healing.lua',
                 description = 'Script Heal with potions.',
                 author = 'mrlthebest',
+                enabled = false
+            },
+            ['Pot Buff'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/BuffPot.lua',
+                description = 'Uses potion in storage every 1h.',
+                author = 'Madicinal',
+                enabled = false
+            },
+        },
+        Utility = {
+            ['E Ring'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Custom_E-Ring.lua',
+                description = 'Script e-ring.',
+                author = 'VivoDibra',
+                enabled = false
+            },
+            ['Waypoints on screen'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/WaypointOnScreen.lua',
+                description = 'Shows waypoints on screen.',
+                author = 'Kratos',
+                enabled = false
+            },
+            ['Exp Analyser'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Exp_Analyser.lua',
+                description = 'Script UI exp Analyser.',
+                author = 'Kratos',
+                enabled = false
+            },
+            ['Open Next Backpack'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/OpenNextBP.lua',
+                description = 'Opens next Backpack on ots that dont do that.',
+                author = 'Kratos',
                 enabled = false
             }
         },
@@ -89,16 +104,22 @@ local script_manager = {
                 author = 'Lee',
                 enabled = false
             },
+            ['Combo + Combo Interrupt'] = {
+                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/combo_interrumpt.lua',
+                description = 'Script de Combo+Combo Interrupt.',
+                author = 'VictorNeox.',
+                enabled = false
+            },
             ['Heal Friend'] = {
                 url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/Heal_Friend.lua',
                 description = 'Script heal friends/party.',
                 author = 'mrlthebest',
                 enabled = false
             },
-            ['Combo + Combo Interrupt'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/combo_interrumpt.lua',
-                description = 'Script de Combo+Combo Interrupt.',
-                author = 'VictorNeox.',
+            ['Follow Player'] = {
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/AutoFollow_with_Botserver.lua',
+                description = 'Auto Follow Player with botserver.',
+                author = 'Kratos/Cyotah',
                 enabled = false
             },
             ['Combo With Leader'] = {
@@ -107,15 +128,10 @@ local script_manager = {
                 author = 'Kratos.',
                 enabled = false
             },
-            ['Follow Player'] = {
-                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/AutoFollow_with_Botserver.lua',
-                description = 'Auto Follow Player with botserver.',
-                author = 'Kratos/Cyotah',
-                enabled = false
-            }
         }
     }
 }
+
 
 _G = modules._G
 context = _G.getfenv()
