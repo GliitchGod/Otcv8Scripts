@@ -1,6 +1,6 @@
 local macroName = 'Exeta Res';
 local macroDelay = 100;
-local tabName = setDefaultTab('Main');
+local tabName = setDefaultTab('2');
 
 
 macro(macroDelay, macroName, function()
