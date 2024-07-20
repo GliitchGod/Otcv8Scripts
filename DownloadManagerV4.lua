@@ -105,7 +105,7 @@ local script_manager = {
                 enabled = false
             },
             ['Combo + Combo Interrupt'] = {
-                url = 'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/main/Scripts/Utilities/combo_interrumpt.lua',
+                url = 'https://raw.githubusercontent.com/GliitchGod/Otcv8Scripts/main/combo_interrupt.lua',
                 description = 'Script de Combo+Combo Interrupt.',
                 author = 'VictorNeox.',
                 enabled = false
