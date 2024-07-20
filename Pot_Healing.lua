@@ -1,3 +1,4 @@
+setDefaultTab("HP")
 local macroName = 'Potion';
 local macroDelay = 100;
 local tabName = setDefaultTab('Main');
