@@ -1,4 +1,4 @@
------------------------------------------------------------------------------------------------------
+setDefaultTab("1")
 
 local timeToCancelAttack = 1; -- timing when will it stop attacking after target stops attacking 
 
