@@ -3,7 +3,6 @@
   If you want to support my work, feel free to donate at https://trainorcreations.com/donate
   PS. Stop ripping off my work and selling it as your own.
 ]]--
-setDefaultTab("PT")
 local panelName = "autoParty"
 local autopartyui = setupUI([[
 Panel
@@ -161,7 +160,7 @@ AutoPartyListWindow < MainWindow
     anchors.bottom: parent.bottom
     size: 45 21
 ]])
-
+setDefaultTab("PT")
 if not storage[panelName] then
     storage[panelName] = {
         leaderName = 'Leader',
