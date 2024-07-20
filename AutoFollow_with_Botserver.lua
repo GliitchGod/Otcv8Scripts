@@ -1,3 +1,4 @@
+setDefaultTab("1")
 leaderPositions = {}
  local leaderDirections = {}
  local leader
