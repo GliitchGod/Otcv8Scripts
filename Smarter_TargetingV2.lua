@@ -1,3 +1,4 @@
+setDefaultTab("Target")
 macro(100, "Smarter targeting", function()
    if isInPz() then
         targetMonster = nil
