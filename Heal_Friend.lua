@@ -1,4 +1,4 @@
-setDefaultTab("1")
+setDefaultTab("PT")
 local macroName = 'Heal Friend';
 local macroDelay = 100;
 local tabName = setDefaultTab('Main');
