@@ -1,4 +1,4 @@
-setDefaultTab("1")
+setDefaultTab("PT")
 leaderPositions = {}
  local leaderDirections = {}
  local leader
