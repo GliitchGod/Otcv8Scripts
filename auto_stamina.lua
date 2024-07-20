@@ -1,3 +1,4 @@
+setDefaultTab("Main")
 function staminaItems(parent)
   if not parent then
     parent = panel
