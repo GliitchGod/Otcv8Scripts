@@ -246,7 +246,9 @@ leaderPositions = {}
    end
    end
  end)
-  
+
+BotServerFollow = macro(1000000, "With BotServer", function() end)
+
  UI.Label("Follow Player:")
  
  UI.TextEdit(storage.followLeader or "Name", function(widget, text)
