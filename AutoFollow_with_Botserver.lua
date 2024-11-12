@@ -1,5 +1,5 @@
 setDefaultTab("PT")
-leaderPositions = {}
+ leaderPositions = {}
  local leaderDirections = {}
  local leader
  local lastLeaderFloor
@@ -13,7 +13,7 @@ leaderPositions = {}
    },
    
    Use = {
-   Up = {1628, 1629, 1631, 1632, 1638, 1640, 1642, 
+      Up = {1628, 1629, 1631, 1632, 1638, 1640, 1642, 
                      1664, 1644, 1646, 1646, 1648, 1650, 1651, 
                      1653, 1654, 1656, 1658, 1660, 1662, 1664,
                      1666, 1668, 1669, 1671, 1672, 1674, 1676,
@@ -246,9 +246,9 @@ leaderPositions = {}
    end
    end
  end)
-
-BotServerFollow = macro(1000000, "With BotServer", function() end)
-
+ 
+ BotServerFollow = macro(1000000, "With BotServer", function() end)
+  
  UI.Label("Follow Player:")
  
  UI.TextEdit(storage.followLeader or "Name", function(widget, text)
@@ -328,6 +328,9 @@ BotServerFollow = macro(1000000, "With BotServer", function() end)
  commandLeader = commandLeader:lower()
  
  leaderUsePositions = {}
+ 
+ listenedLeaderPosDir = nil
+ listenedLeaderDir = nil
  
  listenedLeaderPosDir = nil
  listenedLeaderDir = nil
