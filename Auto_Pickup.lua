@@ -29,7 +29,7 @@ end, true)
 containerpickUpContainer:setHeight(35)
 containerpickUpContainer:setItems(storage.containerpickUp)
 
-pegaritem = macro((g_game.getPing()*1.5), "- Catar Itens -", "", function() 
+suckitem = macro((g_game.getPing()*1.5), "- PickUp -", "", function() 
   if not storage.pickUp[1] then return end 
   for x = -CheckPOS, CheckPOS do
     for y = -CheckPOS, CheckPOS do	
@@ -61,7 +61,7 @@ pegaritem = macro((g_game.getPing()*1.5), "- Catar Itens -", "", function()
   for x = -CheckPOS, CheckPOS do
     for y = -CheckPOS, CheckPOS do	
     local tile = g_map.getTile({x = posx() + x, y = posy() + y, z = posz()})	
-    if tile and tile:isClickable() and tile:isWalkable() and tile:isPathable() then	--acho q n tenho q testar se é walkable pra mover
+    if tile and tile:isClickable() and tile:isWalkable() and tile:isPathable() then	
         for c, catar in pairs(storage.pickUp) do	
          for a , item in pairs(tile:getThings()) do         
           if table.find(catar, item:getId()) then		
