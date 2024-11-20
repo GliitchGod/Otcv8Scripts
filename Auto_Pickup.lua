@@ -1,5 +1,4 @@
 setDefaultTab("Tools")
-  UI.Separator()
   
   if type(storage.pickUp) ~= "table" then
     storage.pickUp = {3725, 3723}
